@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Check All</title>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="check.css">
+
+
+
+  <script type="text/javascript">
+
+  $(document).ready(function(){
+
+
+     $('#SelectAll').click(function() {
+  $('.checkBoxClass').prop('checked', this.checked).change();
+});
+ });    
+
+</script>
+
+</head>
+<body>
+
+  <!-- <div class="container-fluid">
+  <div class="row">
+  <div class="col-md-6">
+    <div class="col-md-6"> -->
+
+  <div class="check-design">
+  
+
+  <div class=back>
+
+ <label><input type="checkbox" id="SelectAll" style="padding-left: 10PX: " />Chek All Email Id<br><br>
+<label><input class="checkBoxClass" name="pid[]" id="pid_1" value="1"  type="checkbox">prashantk271994@gmail.com</label><br><br>
+<label><input class="checkBoxClass" name="pid[]" id="pid_2" value="3" type="checkbox">rak232@gmail.com</label><br><br>
+<label><input class="checkBoxClass" name="pid[]" id="pid_3" value="3" type="checkbox">pan232@gmail.com</label><br><br>
+<label><input class="checkBoxClass" name="pid[]" id="pid_4" value="3" type="checkbox">par232@gmail.com</label><br><br>
+<label><input class="checkBoxClass" name="pid[]" id="pid_5" value="3" type="checkbox">klrahul232@gmail.com</label><br><br>
+<label><input class="checkBoxClass" name="pid[]" id="pid_6" value="3" type="checkbox">sachin@gmail.com</label><br><br>
+
+
+<!-- </div --><!-- </div>  --> <!-- end of col!-->
+</div>
+<!-- </div> -->   <!--- end of check-design!-- >
+<!-- </div> -->    <!-- end of container-fluid!-->
+<!-- </div>  -->   <!-- end of class row!-->
+</div>
+</body>
+</html>
